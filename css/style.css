@@ -1,0 +1,282 @@
+body {
+    font-family: 'montserrat';
+    background-color: #171717;
+}
+
+body .single-product {
+    background-color: #F6F7FB;
+}
+
+body .checkout {
+    background-color: #f6f7fb;
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* carousel */
+.carousel {
+    height: 450px;
+    background-color: #5A253E;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'lora';
+    font-weight: 700;
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.features {
+    background-color: black;
+}
+
+.features h3,
+.designer h3,
+.similar-product h3,
+.cart-header h3 {
+    font-family: 'lora';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28;
+}
+
+.features p,
+.designer p,
+.similar-product p,
+.cart-header p,
+footer p {
+    font-family: 'montserrat';
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.figure p {
+    font-family: 'montserrat';
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.checkout-modal-success h3 {
+    font-family: 'lora';
+    color: #1B2690;
+    font-weight: bold;
+}
+
+.checkout-modal-success p {
+    font-family: 'montserrat';
+    color: #B7B7B7;
+    font-weight: 300;
+}
+
+.figure h5 {
+    font-family: 'montserrat';
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+.figure-img {
+    position: relative;
+}
+
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
+}
+
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+.single-product h3 {
+    color: #171717;
+    font-weight: 700;
+}
+
+.single-product p {
+    color: #171717;
+    font-weight: 200;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaef;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 15px 0;
+}
+
+.designed-by h5 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #b7b7b7;
+    margin-bottom: 20px;
+}
+
+.designed-by h4 {
+    font size: 18px;
+    color;
+    #171717;
+}
+
+.designed-by p {
+    font-size: 14;
+    font-weight: 200;
+}
+
+.designed-by p span {
+    color: #b7b7b7;
+}
+
+/* product description */
+
+.product-description {
+    background-color: #F0EEEE;
+    height: 300px;
+}
+
+.product-description .tab-content {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #171717;
+    line-height: 28px;
+}
+
+.product-review {
+    height: 300px;
+    overflow: scroll;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.product-review p {
+    font-size: 15px !important;
+}
+
+.similar-product {
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
+.similar-product h4 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.checkout-detail {
+    background-color: #EAEAEF;
+    border: 1px solid #eaeaef;
+    color: #171717;
+}
+
+.category {
+    margin-top: 100px;
+    background-color: #F6F7FB;
+}
+
+.category h3 {
+    margin-top: 20px;
+    font-family: 'lora';
+    color: #171717;
+    font-weight: bold;
+    font-size: 28;
+}
+
+.category h4 {
+    font-family: 'montserrat';
+    color: #171717;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.category p {
+    font-family: 'montserrat';
+    color: #B7B7B7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.our-designer h3 {
+    margin-top: 50px;
+    font-family: 'lora';
+    color: #171717;
+    font-weight: bold;
+    font-size: 28;
+}
+
+.our-designer h5 {
+    font-family: 'lora';
+    color: #171717;
+    font-weight: 300;
+    font-size: 28;
+}
+
+.our-designer p {
+    font-family: 'montserrat';
+    color: #B7B7B7;
+    font-weight: 500;
+    font-size: 16px;
+}
